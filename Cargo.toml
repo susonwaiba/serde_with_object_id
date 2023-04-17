@@ -7,7 +7,7 @@ authors = [
 ]
 categories = ["encoding", "no-std"]
 description = "serde_with_object_id"
-keywords = ["serde", "serde_with", "mongodb", "bson", "object_id", "ObjectId"]
+keywords = ["serde", "serde_with", "mongodb", "bson", "ObjectId"]
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/susonwaiba/serde_with_object_id"
