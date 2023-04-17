@@ -1,0 +1,11 @@
+[package]
+name = "serde_with_object_id"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mongodb = { version = "2.4", features = ["bson-serde_with"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_with = "2.3"
