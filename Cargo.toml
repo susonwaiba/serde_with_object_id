@@ -2,8 +2,15 @@
 name = "serde_with_object_id"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = [
+    "Suson Waiba"
+]
+categories = ["encoding", "no-std"]
+description = "serde_with_object_id"
+keywords = ["serde", "serde_with", "mongodb", "bson", "object_id", "ObjectId"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/susonwaiba/serde_with_object_id"
 
 [dependencies]
 mongodb = { version = "2.4", features = ["bson-serde_with"] }
